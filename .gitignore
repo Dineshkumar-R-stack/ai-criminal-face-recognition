@@ -1,23 +1,32 @@
 # Virtual environment
 focus_env/
+venv/
+.env/
 
 # Python cache
 __pycache__/
 *.pyc
 
-# Dataset / images
+# Images / dataset
 *.jpg
 *.jpeg
 *.png
 
-# Generated files
-*.csv
+# Generated face embeddings
 *.ebd
 *.checksum
 
-# Model weights
+# CSV outputs
+*.csv
+
+# Model weights (very large files)
 *.pth
+*.tar
 
 # IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
