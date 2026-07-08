@@ -1,5 +1,6 @@
 # Virtual environment
 focus_env/
+focus38_env
 venv/
 .env/
 
